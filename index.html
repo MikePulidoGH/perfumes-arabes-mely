@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5eee3">
+  <meta name="description" content="Descubrí perfumes árabes originales en Aura & Esencias. Una colección de fragancias para dejar huella.">
+  <title>Aura & Esencias — Perfumería árabe</title>
+  <style>
+    :root{--cream:#f7f0e6;--paper:#fffdf8;--ink:#302b24;--muted:#756c60;--gold:#b38b42;--gold-dark:#896426;--aqua:#b9ddd2;--aqua-dark:#568f83;--line:#e9dfd0;--shadow:0 18px 50px rgba(77,58,30,.10);--serif:Georgia,'Times New Roman',serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--cream);font-family:var(--sans);line-height:1.5}button,input{font:inherit}button{cursor:pointer}.topline{height:4px;background:linear-gradient(90deg,#d8bd7c,var(--aqua),#d8bd7c)}
+    .site-header{position:sticky;top:0;z-index:10;background:rgba(255,253,248,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(179,139,66,.16)}.nav{max-width:1240px;margin:auto;padding:13px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px}.wordmark{display:flex;align-items:center;gap:11px;text-decoration:none;color:inherit}.wordmark img{width:43px;height:43px;object-fit:cover;border-radius:50%;border:1px solid #d9c17c}.wordmark strong{font-family:var(--serif);letter-spacing:.06em;font-size:19px;font-weight:500}.wordmark small{display:block;font-family:var(--sans);font-size:9px;text-transform:uppercase;letter-spacing:.23em;color:var(--muted);margin-top:1px}.nav-links{display:flex;align-items:center;gap:28px}.nav-links a{color:var(--muted);text-decoration:none;font-size:13px}.nav-links a:hover{color:var(--gold-dark)}.cart-trigger{border:1px solid var(--gold);color:var(--ink);background:transparent;padding:10px 15px;border-radius:999px;display:flex;align-items:center;gap:9px;font-weight:600;font-size:13px}.cart-trigger:hover{background:#f5ead4}.cart-badge{background:var(--aqua);min-width:21px;height:21px;border-radius:50%;display:inline-grid;place-items:center;font-size:11px}
+    .hero{max-width:1240px;margin:0 auto;padding:52px 28px 44px;display:grid;grid-template-columns:1fr .82fr;align-items:center;gap:40px;min-height:425px}.hero-copy{padding:12px 0}.eyebrow{color:var(--gold-dark);font-size:11px;font-weight:700;letter-spacing:.23em;text-transform:uppercase}.hero h1{font:500 clamp(42px,6vw,74px)/1.02 var(--serif);letter-spacing:-.035em;margin:17px 0 18px;max-width:620px}.hero h1 em{font-weight:400;color:var(--aqua-dark)}.hero-copy p{max-width:470px;color:var(--muted);font-size:15px;line-height:1.8;margin:0 0 27px}.primary-link{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:#fffdf8;text-decoration:none;padding:13px 20px;border-radius:4px;font-size:13px;letter-spacing:.03em;transition:transform .2s,background .2s}.primary-link:hover{background:var(--gold-dark);transform:translateY(-2px)}.hero-mark{position:relative;justify-self:center;width:min(100%,400px);aspect-ratio:1;display:grid;place-items:center}.hero-mark:before,.hero-mark:after{content:'';position:absolute;border-radius:50%;inset:3%;border:1px solid rgba(179,139,66,.4)}.hero-mark:after{inset:10%;border-color:rgba(86,143,131,.27)}.hero-mark img{position:relative;z-index:1;width:75%;height:75%;object-fit:cover;border-radius:50%;box-shadow:0 18px 50px rgba(75,55,25,.12)}.hero-spark{position:absolute;color:#bb994d;z-index:2}.spark-a{top:5%;right:19%;font-size:24px}.spark-b{bottom:14%;left:9%;font-size:18px}.spark-c{top:24%;left:4%;font-size:13px}
+    .collection{background:var(--paper);padding:48px 28px 78px}.section-wrap{max-width:1240px;margin:auto}.section-top{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:28px}.section-heading h2{font:500 38px/1.1 var(--serif);margin:8px 0 6px}.section-heading p{margin:0;color:var(--muted);font-size:13px}.filters{display:flex;gap:10px;align-items:center}.search{width:min(290px,36vw);border:1px solid var(--line);border-radius:4px;padding:12px 14px;background:white;color:var(--ink);outline:none;font-size:13px}.search:focus{border-color:var(--gold)}.result-count{font-size:12px;color:var(--muted);white-space:nowrap}.product-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.product-card{border:1px solid #eee6d9;background:white;transition:transform .22s,box-shadow .22s;position:relative;display:flex;flex-direction:column;min-width:0}.product-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.product-image{height:245px;padding:16px;background:linear-gradient(145deg,#faf8f1,#f2f1e6);display:grid;place-items:center;overflow:hidden}.product-image img{display:block;width:100%;height:100%;object-fit:contain}.product-info{padding:17px 16px 16px;display:flex;flex:1;flex-direction:column}.product-name{font:500 18px/1.25 var(--serif);margin:0;min-height:45px}.product-price{margin:7px 0 15px;font-size:16px;color:var(--gold-dark);font-weight:700;letter-spacing:.01em}.add-button{margin-top:auto;border:1px solid #bca268;background:transparent;color:var(--ink);padding:10px 12px;font-size:12px;font-weight:650;letter-spacing:.04em;text-transform:uppercase;transition:all .2s}.add-button:hover{background:var(--ink);border-color:var(--ink);color:white}.empty-products{grid-column:1/-1;padding:48px;text-align:center;color:var(--muted);border:1px dashed var(--line)}
+    .brand-note{background:linear-gradient(110deg,#eff6f1,#f7f0e6 68%);padding:42px 28px}.brand-note-inner{max-width:1240px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:25px}.brand-note h3{font:500 25px var(--serif);margin:0 0 5px}.brand-note p{font-size:13px;color:var(--muted);margin:0}.brand-note .signature{font:italic 20px var(--serif);color:var(--gold-dark);white-space:nowrap}.footer{background:#302b24;color:#eee7da;padding:26px 28px}.footer-inner{max-width:1240px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:11px;letter-spacing:.06em}.footer span:last-child{color:#c5b794}
+    .drawer-backdrop{position:fixed;inset:0;background:rgba(31,28,23,.43);z-index:19;opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}.drawer-backdrop.open{opacity:1;visibility:visible}.cart-drawer{position:fixed;z-index:20;top:0;right:0;height:100dvh;width:min(440px,100vw);background:var(--paper);box-shadow:-16px 0 45px rgba(0,0,0,.15);display:flex;flex-direction:column;transform:translateX(102%);transition:transform .25s}.cart-drawer.open{transform:translateX(0)}.drawer-head{padding:22px 23px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}.drawer-head h2{font:500 27px var(--serif);margin:0}.close-cart{border:0;background:transparent;font-size:27px;color:var(--muted);line-height:1;padding:2px 7px}.cart-items{padding:6px 22px;overflow:auto;flex:1}.cart-empty{height:100%;min-height:260px;display:grid;place-content:center;text-align:center;color:var(--muted);gap:8px}.cart-empty strong{font:500 22px var(--serif);color:var(--ink)}.cart-line{padding:17px 0;display:grid;grid-template-columns:66px 1fr auto;gap:13px;align-items:center;border-bottom:1px solid var(--line)}.cart-line img{height:68px;width:66px;object-fit:contain;background:#f4f2e9}.cart-line-name{font:500 16px var(--serif);margin:0 0 4px}.cart-line-price{font-size:12px;color:var(--gold-dark);font-weight:650}.line-tools{display:flex;align-items:center;gap:8px;margin-top:9px}.qty-btn{width:25px;height:25px;border:1px solid var(--line);background:white;border-radius:50%;color:var(--ink);line-height:1}.qty-value{font-size:12px;min-width:12px;text-align:center}.remove-button{border:0;background:transparent;color:#8d7561;font-size:11px;text-decoration:underline;margin-left:4px}.line-total{font-size:12px;font-weight:700;white-space:nowrap;align-self:start;padding-top:5px}.drawer-foot{padding:19px 23px 24px;border-top:1px solid var(--line);background:#fbf8f1}.subtotal{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.subtotal span{font-size:13px;color:var(--muted)}.subtotal strong{font-size:21px;color:var(--gold-dark)}.clear-button{width:100%;border:1px solid var(--line);background:white;color:var(--muted);padding:11px;font-size:12px}.clear-button:hover{border-color:#bd8775;color:#8d5140}.toast{position:fixed;z-index:30;left:50%;bottom:26px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:var(--ink);color:white;padding:11px 17px;border-radius:999px;font-size:12px;transition:all .2s;white-space:nowrap}.toast.show{opacity:1;transform:translate(-50%,0)}
+    @media(max-width:900px){.product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.hero{gap:20px;min-height:360px}.hero-mark{width:min(100%,330px)}.product-image{height:225px}}
+    @media(max-width:650px){.nav{padding:10px 16px}.wordmark strong{font-size:17px}.wordmark img{width:38px;height:38px}.nav-links{display:none}.cart-trigger{padding:9px 11px}.hero{grid-template-columns:1fr;padding:43px 21px 35px;gap:18px;text-align:center}.hero-copy{order:1}.hero-copy p{margin-left:auto;margin-right:auto}.hero-mark{order:0;width:205px}.hero h1{font-size:48px;margin:12px auto}.hero-copy .eyebrow{font-size:10px}.collection{padding:38px 16px 56px}.section-top{display:block;margin-bottom:20px}.section-heading h2{font-size:34px}.filters{margin-top:18px;justify-content:space-between}.search{width:65%;padding:11px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.product-image{height:185px;padding:10px}.product-info{padding:12px 11px}.product-name{font-size:16px;min-height:40px}.product-price{font-size:14px;margin:6px 0 12px}.add-button{padding:9px 6px;font-size:10px}.brand-note{padding:30px 18px}.brand-note-inner{display:block;text-align:center}.brand-note .signature{margin-top:15px}.footer-inner{display:block;text-align:center;line-height:2}.footer-inner span{display:block}}
+    @media(max-width:370px){.product-image{height:160px}.product-name{font-size:15px}.wordmark small{font-size:8px}.hero h1{font-size:42px}}
+  </style>
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="wordmark" href="#inicio" aria-label="Aura y Esencias, inicio">
+        <img src="logo-aura-esencias.jpg" alt="Logo de Aura & Esencias">
+        <span><strong>Aura & Esencias</strong><small>Perfumería árabe</small></span>
+      </a>
+      <div class="nav-links"><a href="#coleccion">Colección</a><a href="#marca">La esencia</a></div>
+      <button class="cart-trigger" id="openCart" type="button" aria-label="Abrir carrito">Carrito <span class="cart-badge" id="cartCount">0</span></button>
+    </nav>
+  </header>
+  <main id="inicio">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        <div class="eyebrow">Perfumería árabe · Colección 2026</div>
+        <h1 id="heroTitle">Fragancias que <em>dejan huella.</em></h1>
+        <p>Una selección de perfumes con carácter, profundidad y encanto. Encontrá esa fragancia especial que habla de vos.</p>
+        <a class="primary-link" href="#coleccion">Explorar la colección <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-mark" aria-label="Logo de Aura & Esencias">
+        <span class="hero-spark spark-a" aria-hidden="true">✧</span><span class="hero-spark spark-b" aria-hidden="true">✦</span><span class="hero-spark spark-c" aria-hidden="true">✧</span>
+        <img src="logo-aura-esencias.jpg" alt="Aura & Esencias, perfumes árabes originales">
+      </div>
+    </section>
+    <section class="collection" id="coleccion" aria-labelledby="collectionTitle">
+      <div class="section-wrap">
+        <div class="section-top">
+          <div class="section-heading"><div class="eyebrow">Encontrá tu próxima esencia</div><h2 id="collectionTitle">La colección</h2><p>Perfumes seleccionados para cada momento.</p></div>
+          <div class="filters"><input class="search" id="search" type="search" placeholder="Buscar perfume…" aria-label="Buscar perfume"><span class="result-count" id="resultCount"></span></div>
+        </div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      </div>
+    </section>
+    <section class="brand-note" id="marca"><div class="brand-note-inner"><div><h3>Una esencia, una historia.</h3><p>Descubrí aromas que acompañan y dejan su huella.</p></div><div class="signature">Aura & Esencias</div></div></section>
+  </main>
+  <footer class="footer"><div class="footer-inner"><span>AURA & ESENCIAS · PERFUMERÍA ÁRABE</span><span>Fragancias que dejan huella</span></div></footer>
+  <div class="drawer-backdrop" id="backdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Carrito de compra" aria-hidden="true">
+    <div class="drawer-head"><h2>Tu carrito</h2><button class="close-cart" id="closeCart" type="button" aria-label="Cerrar carrito">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="drawer-foot"><div class="subtotal"><span>Total</span><strong id="cartTotal">$0</strong></div><button class="clear-button" id="clearCart" type="button">Vaciar carrito</button></div>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+    const products = [
+      {name:'9AM',price:70000,image:'9am $70000.jpeg'},
+      {name:'Ameerat',price:45000,image:'ameerat $45000.jpeg'},
+      {name:'Ana Abiyedh Rouge',price:48000,image:'ana abiyedh rouge 48000.jpg'},
+      {name:'Angham',price:55000,image:'angham 55000.jpeg'},
+      {name:'Bharara King',price:100000,image:'bharara king $100000.jpeg'},
+      {name:'Club De Nuit Intense',price:72000,image:'club de nuit intense 72000.jpeg'},
+      {name:'Club De Nuit Untold',price:65000,image:'club de nuit untold 65000.jpeg'},
+      {name:'Dalal',price:80000,image:'dalal $80000.jpeg'},
+      {name:'Durrat Al Aroos Love',price:68000,image:'durrat al aroos love $68000.jpeg'},
+      {name:'Durrat Al Aroos Wataniah',price:50000,image:'durrat al aroos wataniah $50000.jpeg'},
+      {name:'Eclaire',price:68000,image:'ecleire 68000.jpeg'},
+      {name:'Eclaire Banoffi',price:78000,image:'ecleire banoffi 78000.jpeg'},
+      {name:'Fakhar Black',price:55000,image:'fakhar black 55000.jpeg'},
+      {name:'Fakhar Rose',price:65000,image:'fakhar rouse 65000.jpeg'},
+      {name:'Her Confession',price:66000,image:'her confession 66000.jpeg'},
+      {name:'Khamrah',price:58000,image:'khamrah 58000.jpeg'},
+      {name:'Khamrah Dukhan',price:52000,image:'khamrah dukhan 52000.jpeg'},
+      {name:'Khamrah Qahwa',price:53000,image:'khamrah qahwa 53000.jpeg'},
+      {name:'Leonie',price:48000,image:'leonie 48000.jpeg'},
+      {name:'Marshmallow Blush',price:95000,image:'marshmallow blush 95000.jpeg'},
+      {name:'Nebras Elixir',price:62000,image:'nebras elixir 62000.jpeg'},
+      {name:'Odyssey Mandarin Sky',price:55000,image:'odyssey mandarin sky 55000.jpeg'},
+      {name:'Odyssey Marshmallow',price:74000,image:'odyssey marshmallow 74000.jpeg'},
+      {name:'Odyssey Spectra',price:50000,image:'odyssey spectra 50000.jpeg'},
+      {name:'Philos Pura',price:48000,image:'philos pura 48000.jpeg'},
+      {name:'Poudree',price:45000,image:'poudree 45000.jpg'},
+      {name:'Qaed Al Fursan',price:45000,image:'qaed al fursan 45000.jpeg'},
+      {name:'Sakeena',price:52000,image:'sakeena 52000.jpeg'},
+      {name:'Sixteen Hours',price:31000,image:'sixteen hours 31000.jpeg'},
+      {name:'So Candid Rouge',price:45000,image:'so candid rouge 45000.jpeg'},
+      {name:'Sublime',price:55000,image:'sublime 55000.jpeg'},
+      {name:'Xerjoff',price:76000,image:'xerjoff 76000.jpeg'},
+      {name:'Yara Elixir',price:62000,image:'yara elixir 62000.jpeg'},
+      {name:'Yum Yum',price:69000,image:'yum yum 69000.jpeg'}
+    ];
+    const peso = n => '$' + new Intl.NumberFormat('es-AR').format(n);
+    const imageUrl = file => encodeURI(file);
+    let cart = {};
+    try { cart = JSON.parse(localStorage.getItem('aura-cart') || '{}') || {}; } catch { cart = {}; }
+    const productGrid = document.getElementById('productGrid');
+    const search = document.getElementById('search');
+    const count = document.getElementById('resultCount');
+    const drawer = document.getElementById('cartDrawer');
+    const backdrop = document.getElementById('backdrop');
+    const toast = document.getElementById('toast');
+    let toastTimer;
+    function renderProducts(query='') {
+      const q = query.trim().toLocaleLowerCase('es-AR');
+      const list = products.filter(p => p.name.toLocaleLowerCase('es-AR').includes(q));
+      count.textContent = `${list.length} ${list.length===1?'fragancia':'fragancias'}`;
+      if (!list.length) { productGrid.innerHTML='<div class="empty-products">No encontramos perfumes con ese nombre.</div>'; return; }
+      productGrid.innerHTML = list.map(p => `<article class="product-card"><div class="product-image"><img src="${imageUrl(p.image)}" alt="${p.name}" loading="lazy"></div><div class="product-info"><h3 class="product-name">${p.name}</h3><div class="product-price">${peso(p.price)}</div><button class="add-button" type="button" data-add="${p.name}">Agregar al carrito</button></div></article>`).join('');
+    }
+    function saveCart(){try{localStorage.setItem('aura-cart',JSON.stringify(cart));}catch{}}
+    function quantityTotal(){return Object.values(cart).reduce((a,n)=>a+(Number(n)||0),0)}
+    function moneyTotal(){return products.reduce((a,p)=>a+p.price*(Number(cart[p.name])||0),0)}
+    function renderCart(){
+      document.getElementById('cartCount').textContent=quantityTotal();
+      document.getElementById('cartTotal').textContent=peso(moneyTotal());
+      const lines=products.filter(p=>Number(cart[p.name])>0);
+      const target=document.getElementById('cartItems');
+      if(!lines.length){target.innerHTML='<div class="cart-empty"><strong>Tu carrito está vacío</strong><span>Sumá tus fragancias favoritas.</span></div>';return;}
+      target.innerHTML=lines.map(p=>{const qty=Number(cart[p.name]);return `<div class="cart-line"><img src="${imageUrl(p.image)}" alt=""><div><h3 class="cart-line-name">${p.name}</h3><div class="cart-line-price">${peso(p.price)} c/u</div><div class="line-tools"><button class="qty-btn" type="button" data-change="-1" data-name="${p.name}" aria-label="Quitar una unidad de ${p.name}">−</button><span class="qty-value">${qty}</span><button class="qty-btn" type="button" data-change="1" data-name="${p.name}" aria-label="Agregar una unidad de ${p.name}">+</button><button class="remove-button" type="button" data-remove="${p.name}">Quitar</button></div></div><div class="line-total">${peso(p.price*qty)}</div></div>`}).join('');
+    }
+    function setCartOpen(open){drawer.classList.toggle('open',open);backdrop.classList.toggle('open',open);drawer.setAttribute('aria-hidden',String(!open));document.body.style.overflow=open?'hidden':'';if(open)document.getElementById('closeCart').focus();}
+    function showToast(text){toast.textContent=text;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),1700);}
+    productGrid.addEventListener('click',e=>{const b=e.target.closest('[data-add]');if(!b)return;const name=b.dataset.add;cart[name]=(Number(cart[name])||0)+1;saveCart();renderCart();showToast(`${name} se agregó al carrito`);});
+    document.getElementById('cartItems').addEventListener('click',e=>{const change=e.target.closest('[data-change]');const remove=e.target.closest('[data-remove]');if(change){const n=change.dataset.name;cart[n]=(Number(cart[n])||0)+Number(change.dataset.change);if(cart[n]<=0)delete cart[n];}else if(remove){delete cart[remove.dataset.remove];}else{return;}saveCart();renderCart();});
+    search.addEventListener('input',()=>renderProducts(search.value));
+    document.getElementById('openCart').addEventListener('click',()=>setCartOpen(true));
+    document.getElementById('closeCart').addEventListener('click',()=>setCartOpen(false));
+    backdrop.addEventListener('click',()=>setCartOpen(false));
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')setCartOpen(false)});
+    document.getElementById('clearCart').addEventListener('click',()=>{cart={};saveCart();renderCart();showToast('Carrito vacío');});
+    renderProducts();renderCart();
+  </script>
+</body>
+</html>
